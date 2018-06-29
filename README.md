@@ -20,5 +20,5 @@ When workin on macOS, Eclipse will occassionally set a flag on a project that ma
     Mission aborted
     tyler:Projects tylerww$  
 	  
-##License  
+## License  
 Copyright (c) 2018 Tyler Williamson Licensed under the WTFPL license.
