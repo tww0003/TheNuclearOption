@@ -1,7 +1,7 @@
 # The Nuclear Option
 When workin on macOS, Eclipse will occassionally set a flag on a project that makes the project frustraitingly difficult to remove. Even `rm -rf` won't be able to remove the project. This shell script will remove that flag and nuke the project.  
   
-##Installation  
+## Installation  
   
 1. Clone down the script and give it permission to run with `chmod a+x nuke`  
 2. Add the file to your path.  
