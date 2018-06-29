@@ -1,0 +1,9 @@
+#!/bin/bash
+
+folder=$1
+read -p "Are you sure you want to use the nuclear option? (y/n) " choice
+case "$choice" in 
+  y|Y ) chflags -R nouchg ${folder} && rm -rf ${folder} && echo "done";;
+  * ) echo "Mission aborted";;
+esac
+
